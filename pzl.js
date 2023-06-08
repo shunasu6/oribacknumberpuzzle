@@ -77,7 +77,7 @@ var dropSpd;//落下速度
 
 var gameProc = 0;//処理の流れを管理
 var gameTime = 0;//時間の進行を管理
-var hisco = 5000;//ハイスコア
+var hisco = 0;//ハイスコア
 var score = 0;//スコア
 var rensa = 0;//連鎖回数
 var points = 0;//ブロックを消した時の得点
@@ -274,7 +274,7 @@ function procPzl() {//ゲーム中の処理を行う関数
 }
 
 //エフェクトの管理
-var RAINBOW = ["#ff0000", "#e08000", "#c0e000", "#00ff00", "#00c0e0", "#0040ff", "#8000e0"];
+var RAINBOW = ["#ff0000", "#ff0000", "#00ff00", "#00ff00", "#0000ff", "#0000ff", "#8000e0"];
 var EFF_MAX = 100;
 var effX = new Array(EFF_MAX);
 var effY = new Array(EFF_MAX);
